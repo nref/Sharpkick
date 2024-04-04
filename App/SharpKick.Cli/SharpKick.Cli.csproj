@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>sharpkick</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Typin" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\SharpKick.Core\SharpKick.Core.csproj" />
+    <ProjectReference Include="..\..\Infra\SharpKick.Infra\SharpKick.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

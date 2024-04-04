@@ -1,0 +1,24 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "Toggle 1": {
+      "commandName": "Project",
+      "commandLineArgs": "autokvm --toggle 1 --debounce-interval 00:00:05 --poll-interval 00:00:01 --device-paths \"\\\\?\\hid#vid_0bda&pid_1100#d&2a64e1ff&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}\" \"\\\\?\\hid#vid_0bda&pid_1100#d&3b408ceb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}\"\r\n"
+    },
+    "Toggle 0": {
+      "commandName": "Project",
+      "commandLineArgs": "autokvm --toggle 0 --debounce-interval 00:00:05 --poll-interval 00:00:01 --device-paths \"\\\\?\\hid#vid_0bda&pid_1100#d&2a64e1ff&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}\" \"\\\\?\\hid#vid_0bda&pid_1100#d&3b408ceb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}\"\r\n"
+    },
+    "Watch": {
+      "commandName": "Project",
+      "commandLineArgs": "watch --poll-interval 00:00:01"
+    },
+    "help": {
+      "commandName": "Project",
+      "commandLineArgs": "--help\r\n"
+    }
+  }
+}
